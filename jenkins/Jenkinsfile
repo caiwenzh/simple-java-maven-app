@@ -21,7 +21,7 @@ spec:
     stage('Run build') {
       steps {
         container('busybox') {
-          sh '/bin/busybox'
+          sh '/bin/sh'
         }
       }
     }
